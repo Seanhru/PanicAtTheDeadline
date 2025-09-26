@@ -31,7 +31,8 @@ The platforms used for this project were **Windows** and **Mac**.
 - **Data**
   - `All-seasons.csv` — original data file  
   - `Metadata.md` — description of data  
-  - `cleaned_dataset.csv` — cleaned data file used in modeling  
+  - `cleaned_dataset.csv` — cleaned data file ready to be used in modeling
+  - `filtered_data.csv` — data for only the top ten characters
 
 - **Output**
   - `Confusion_Matrix.png` — confusion matrix from model  
