@@ -22,7 +22,6 @@ The software used in this project was **R** and **Python**.
 - collections  
 
   
-
 The platforms used for this project were **Windows** and **Mac**.
 
 ---
@@ -32,7 +31,6 @@ The platforms used for this project were **Windows** and **Mac**.
   - `All-seasons.csv` — original data file  
   - `Metadata.md` — description of data  
   - `cleaned_dataset.csv` — cleaned data file ready to be used in modeling
-  - `filtered_data.csv` — data for only the top ten characters
 
 - **Output**
   - `Confusion_Matrix.png` — confusion matrix from model  
@@ -45,7 +43,7 @@ The platforms used for this project were **Windows** and **Mac**.
 
 - **Scripts**
   - `character_classification.py` — model code
-  - `DS Project 1 South Park.R` - initial exploratory code, generates top ten characters by number of lines and total number of lines per season 
+  - `Exploratory Analysis South Park.R` - initial exploratory code, generates top ten characters by number of lines and total number of lines per season 
 
 - **Other Files**
   - DS Project 1 MI 1 — Milestone 1  
@@ -57,9 +55,9 @@ The platforms used for this project were **Windows** and **Mac**.
 
 ## Instructions for Reproduction
 ### To run the exploratory analysis script:
-1. Download the `All-seasons.csv` file to a known location on your computer. Download the `DS Project 1 South Park.R` file to the same location.
-2. Run the `DS Project 1 South Park.R` file. Ensure that the file directory in your IDE is set to the location of `All-seasons.csv`.
-3. Plots for the top ten characters by number of lines and total number of lines per season will be generated. A `filtered_data.csv` file will be generated containing only the top ten characters.
+1. Download the `All-seasons.csv` file to a known location on your computer. Download the `Exploratory Analysis South Park.R` file to the same location.
+2. Run the `Exploratory Analysis South Park.R` file. Ensure that the file directory in your IDE is set to the location of `All-seasons.csv`.
+3. Plots for the top ten characters by number of lines and total number of lines per season will be generated.
 ### To run the character classification script:
 1. Download the `All-seasons.csv` file to a known location on your computer. Download the `character_classification.py` file to the same location.  
 2. Run the `character_classification.py` file section by section. Ensure that the file directory in your IDE is set to the location of the `All-seasons.csv` and `character_classification.py`.  
