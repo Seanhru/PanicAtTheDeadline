@@ -36,7 +36,8 @@ The platforms used for this project were **Windows** and **Mac**.
   - `Total_Number_of_Lines_per_Season.png` — total number of lines in each season  
 
 - **Scripts**
-  - `character_classification.py` — model code  
+  - `character_classification.py` — model code
+  - `DS Project 1 South Park.R` - initial exploratory code, generates top ten characters by number of lines and total number of lines per season 
 
 - **Other Files**
   - DS Project 1 MI 1 — Milestone 1  
@@ -47,7 +48,12 @@ The platforms used for this project were **Windows** and **Mac**.
 ---
 
 ## Instructions for Reproduction
+### To run the exploratory analysis script:
+1. Download the `All-seasons.csv` file to a known location on your computer. Download the `DS Project 1 South Park.R` file to the same location.
+2. Run the `DS Project 1 South Park.R` file. Ensure that the file directory in your IDE is set to the location of `All-seasons.csv`.
+3. Plots for the top ten characters by number of lines and total number of lines per season will be generated. A `filtered_data.csv` file will be generated containing only the top ten characters.
+### To run the character classification script:
 1. Download the `All-seasons.csv` file to a known location on your computer. Download the `character_classification.py` file to the same location.  
 2. Run the `character_classification.py` file section by section. Ensure that the file directory in your IDE is set to the location of the `All-seasons.csv` and `character_classification.py`.  
-3. Plots will be generated in the IDE. A `cleaned_dataset.csv` file will be generated and automatically saved to your computer. The precision, recall, and F1 score table will be printed in the IDE console, as well as the top words and phrases for each of the top 10 characters.  
+3. Plots will be generated in the IDE. A `cleaned_dataset.csv` file will be generated containing the data ready for use in the model. The precision, recall, and F1 score table will be printed in the IDE console, as well as the top words and phrases for each of the top ten characters.  
 
