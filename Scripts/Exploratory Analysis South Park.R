@@ -28,13 +28,3 @@ data %>%
   labs(title = "Total Number of Lines per Season",
        x = "Season", y = "Number of Lines")
 
-
-
-filtered_data <- data %>%
-  filter(Character %in% c("Cartman", "Stan", "Kyle", "Butters", "Randy",
-                          "Mr. Garrison", "Chef", "Kenny", "Sharon", "Mr. Mackey"))
-head(filtered_data)
-
-write.csv(filtered_data, "filtered_data.csv", row.names = FALSE)
-write.csv(filtered_data, "/Users/arianaelahi/Desktop/filtered_data.csv", row.names = FALSE)
-
