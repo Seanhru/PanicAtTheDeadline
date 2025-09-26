@@ -5,8 +5,11 @@
 ---
 
 ## Software and Platform
-The software used in this project is **Python**.  
-Necessary packages include:  
+The software used in this project is **R** and **Python**.  
+Necessary libraries for R include:
+- Ggplot2
+- Dplyer
+Necessary packages for Python include:  
 - Pandas  
 - String  
 - SciKit Learn  
@@ -14,7 +17,8 @@ Necessary packages include:
 - Matplotlib  
 - Seaborn  
 - NumPy  
-- Collections  
+- Collections
+  
 
 The platforms used for this project were **Windows** and **Mac**.
 
